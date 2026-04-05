@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIRAXIS - KVKK Aydinlatma Metni</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-color: #0D0D1A;
+            color: #E8E8E8;
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0 20px;
+            border-bottom: 1px solid #2a2a3a;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            color: #FFD700;
+            font-size: 2.4em;
+            letter-spacing: 6px;
+            margin-bottom: 12px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #4FC3F7;
+            text-decoration: none;
+            font-size: 0.95em;
+            transition: opacity 0.2s;
+        }
+        nav a:hover { opacity: 0.8; text-decoration: underline; }
+        h2 {
+            color: #FFD700;
+            font-size: 1.4em;
+            margin-top: 36px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid #2a2a3a;
+            padding-bottom: 6px;
+        }
+        h3 {
+            color: #FFD700;
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        p { margin-bottom: 14px; }
+        ul { margin: 10px 0 14px 24px; }
+        li { margin-bottom: 6px; }
+        a { color: #4FC3F7; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        footer {
+            text-align: center;
+            padding: 30px 0 20px;
+            margin-top: 50px;
+            border-top: 1px solid #2a2a3a;
+            color: #888;
+            font-size: 0.85em;
+        }
+        .badge {
+            display: inline-block;
+            background: #1a1a2e;
+            border: 1px solid #2a2a3a;
+            border-radius: 6px;
+            padding: 4px 10px;
+            font-size: 0.85em;
+            margin-top: 6px;
+        }
+        .legal-ref {
+            background: #1a1a2e;
+            border-left: 3px solid #FFD700;
+            padding: 10px 14px;
+            margin: 12px 0;
+            font-size: 0.92em;
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8em; letter-spacing: 4px; }
+            h2 { font-size: 1.2em; }
+            .container { padding: 14px; }
+            nav { gap: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MIRAXIS</h1>
+            <nav>
+                <a href="index.html">Privacy Policy</a>
+                <a href="kvkk.html">KVKK</a>
+                <a href="terms.html">Terms of Service</a>
+            </nav>
+        </header>
+
+        <main>
+            <h2>KVKK Aydinlatma Metni</h2>
+            <div class="legal-ref">
+                6698 sayili Kisisel Verilerin Korunmasi Kanunu ("KVKK") md. 10 uyarinca
+                hazirlanan aydinlatma metnidir.
+            </div>
+            <p>
+                Bu aydinlatma metni, <strong>MIRAXIS</strong>
+                (<span class="badge">com.surmeli.miraxis</span>) mobil uygulamasini
+                kullanan siz degerli kullanicilarimizi, kisisel verilerinizin islenmesine
+                iliskin bilgilendirmek amaciyla hazirlanmistir.
+            </p>
+
+            <h2>1. Veri Sorumlusunun Kimligi</h2>
+            <p>
+                <strong>Veri Sorumlusu:</strong> [Ad Soyad / Sirket Unvani]<br>
+                <strong>Adres:</strong> [Adres bilgisi]<br>
+                <strong>E-posta:</strong> <a href="mailto:surmeli.dev@gmail.com">surmeli.dev@gmail.com</a>
+            </p>
+            <p>
+                Veri sorumlusu sifatiyla, kisisel verileriniz asagida aciklanan amaclar
+                kapsaminda islenebilecektir.
+            </p>
+
+            <h2>2. Islenen Kisisel Veriler</h2>
+            <p>Uygulamamiz araciligiyla asagidaki kisisel veriler otomatik yollarla toplanmaktadir:</p>
+            <ul>
+                <li><strong>Cihaz tanımlayicilari:</strong> Android Reklam Kimligi (Advertising ID), cihaz modeli, isletim sistemi surumu.</li>
+                <li><strong>Oyun ici davranis verileri:</strong> Skor, oturum suresi, bolum tamamlama durumu, oyun ici etkilesim verileri.</li>
+                <li><strong>Teknik log verileri:</strong> Cokme raporlari (crash reports), hata kayitlari, uygulama surumu ve teknik teshis verileri.</li>
+                <li><strong>Dil ve bolge ayarlari:</strong> Cihazinizin dil tercihi ve genel bolge bilgisi.</li>
+            </ul>
+
+            <h2>3. Kisisel Verilerin Islenme Amaclari</h2>
+            <p>Toplanan kisisel verileriniz asagidaki amaclarla islenmektedir:</p>
+            <ul>
+                <li><strong>Analitik:</strong> Oyun deneyimini iyilestirmek, kullanici davranislarini anlamak ve uygulama performansini olcmek (Firebase Analytics).</li>
+                <li><strong>Hata tespiti ve giderme:</strong> Uygulamada meydana gelen cokmeleri ve hatalari tespit edip cozume kavusturmak (Firebase Crashlytics).</li>
+                <li><strong>Reklam gosterimi:</strong> Uygulama icerisinde banner, gecis (interstitial), odullu (rewarded) ve yerel (native) reklam gostermek (Google AdMob).</li>
+            </ul>
+
+            <h2>4. Kisisel Verilerin Aktarildigi Taraflar</h2>
+            <p>
+                Kisisel verileriniz, yukarida belirtilen amaclar dogrultusunda asagidaki
+                ucuncu taraflara aktarilabilmektedir:
+            </p>
+            <ul>
+                <li>
+                    <strong>Google LLC</strong> (Amerika Birlesik Devletleri) — Firebase Analytics,
+                    Firebase Crashlytics ve Google AdMob hizmetleri kapsaminda.
+                </li>
+            </ul>
+            <div class="legal-ref">
+                <strong>Yurt disi aktarim:</strong> KVKK md. 9 uyarinca, verileriniz yeterli korumaya
+                sahip ulkelere veya veri sorumlusunun yeterli bir korumayi taahhut ettigi
+                yurt disina aktarilabilir. Google, GDPR ve ilgili uluslararasi veri koruma
+                cercevelerine uyum saglamaktadir.
+            </div>
+
+            <h2>5. Kisisel Veri Toplamanin Yontemi ve Hukuki Sebebi</h2>
+            <p>
+                Kisisel verileriniz, uygulamanin kullanimina bagli olarak <strong>otomatik
+                yollarla</strong> (SDK'lar araciligiyla) toplanmaktadir.
+            </p>
+            <p>Kisisel verilerin islenmesinin hukuki sebepleri:</p>
+            <ul>
+                <li>
+                    <strong>KVKK md. 5/2-f:</strong> Ilgili kisinin temel hak ve ozgurluklerine zarar
+                    vermemek kaydiyla, veri sorumlusunun mesru menfaatleri icin veri islenmesinin
+                    zorunlu olmasi (analitik ve hata tespiti).
+                </li>
+                <li>
+                    <strong>Acik riza:</strong> Kisisellestirilmis reklam gosterimi icin kullanicinin
+                    acik rizasi alinmaktadir.
+                </li>
+            </ul>
+
+            <h2>6. Veri Sahibinin Haklari (KVKK md. 11)</h2>
+            <p>KVKK'nin 11. maddesi uyarinca asagidaki haklara sahipsiniz:</p>
+            <ul>
+                <li>Kisisel verilerinizin islenip islenmedigini ogrenme,</li>
+                <li>Kisisel verileriniz islenmisse buna iliskin bilgi talep etme,</li>
+                <li>Kisisel verilerinizin islenme amacini ve bunlarin amacina uygun kullanilip kullanilmadigini ogrenme,</li>
+                <li>Yurt icinde veya yurt disinda kisisel verilerinizin aktarildigi ucuncu kisileri bilme,</li>
+                <li>Kisisel verilerinizin eksik veya yanlis islenmis olmasi halinde bunlarin duzeltilmesini isteme,</li>
+                <li>KVKK md. 7'de ongorrlen sartlar cercevesinde kisisel verilerinizin silinmesini veya yok edilmesini isteme,</li>
+                <li>Duzeltme ve silme islemlerinin, kisisel verilerin aktarildigi ucuncu kisilere bildirilmesini isteme,</li>
+                <li>Islenen verilerin munhasiran otomatik sistemler vasitasiyla analiz edilmesi suretiyle aleyhinize bir sonucun ortaya cikmasina itiraz etme,</li>
+                <li>Kisisel verilerinizin kanuna aykiri olarak islenmesi sebebiyle zarara ugramaniz halinde zararin giderilmesini talep etme.</li>
+            </ul>
+            <p>
+                Yukaridaki haklarinizi kullanmak icin asagidaki iletisim adresine
+                basvurabilirsiniz.
+            </p>
+
+            <h2>7. Iletisim</h2>
+            <p>
+                KVKK kapsamindaki taleplerinizi asagidaki e-posta adresine
+                iletebilirsiniz:
+            </p>
+            <p><a href="mailto:surmeli.dev@gmail.com">surmeli.dev@gmail.com</a></p>
+
+            <p><em>Son guncelleme: 5 Nisan 2026</em></p>
+        </main>
+
+        <footer>
+            &copy; 2026 MIRAXIS. Tum haklari saklidir.
+        </footer>
+    </div>
+</body>
+</html>
