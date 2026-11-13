@@ -14,7 +14,7 @@
 
 4. **Wait a few minutes** — your site will be live at:
    ```
-   https://surmeli.github.io/miraxis/
+   https://mustafasurmeli.github.io/miraxis/
    ```
 
 ## Pages
